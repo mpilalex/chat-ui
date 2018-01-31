@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`username render 1`] = `
+<form
+  action={undefined}
+  className="ui form username-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="ui input"
+  >
+    <input
+      disabled={undefined}
+      onChange={[Function]}
+      tabIndex={undefined}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="ui icon button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+  >
+    <i
+      aria-hidden="true"
+      className="checkmark icon"
+    />
+  </button>
+</form>
+`;
+
+exports[`username render 2`] = `
+<div
+  className="username-view"
+>
+  epictetus
+  <button
+    className="ui icon button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+  >
+    <i
+      aria-hidden="true"
+      className="write icon"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`username render 1`] = `
+<div
+  className="message-feed"
+>
+  <div
+    className="ui feed"
+  />
+</div>
+`;
+
+exports[`username render 2`] = `
+<div
+  className="message-feed"
+>
+  <div
+    className="ui feed"
+  >
+    <div
+      className="event mine"
+    >
+      <div
+        className="label"
+      >
+        <img
+          src="https://spotim-demo-chat-server.herokuapp.com/avatars/001-snorlax.png"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="summary"
+        >
+          user1
+          <div
+            className="date"
+          >
+            a few seconds ago
+          </div>
+        </div>
+        <div
+          className="text extra"
+        >
+          Hi
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`username render 3`] = `
+<div
+  className="message-feed"
+>
+  <div
+    className="ui feed"
+  >
+    <div
+      className="event mine"
+    >
+      <div
+        className="label"
+      >
+        <img
+          src="https://spotim-demo-chat-server.herokuapp.com/avatars/001-snorlax.png"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="summary"
+        >
+          user1
+          <div
+            className="date"
+          >
+            a few seconds ago
+          </div>
+        </div>
+        <div
+          className="text extra"
+        >
+          Hi
+        </div>
+      </div>
+    </div>
+    <div
+      className="event user"
+    >
+      <div
+        className="label"
+      >
+        <img
+          src="https://spotim-demo-chat-server.herokuapp.com/avatars/001-snorlax.png"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <div
+          className="summary"
+        >
+          user2
+          <div
+            className="date"
+          >
+            a few seconds ago
+          </div>
+        </div>
+        <div
+          className="text extra"
+        >
+          Hi
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
